@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Projec Main 1</string>
+
+
+    <string name="nav_home">Home</string>
+    <string name="nav_product">Product</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_change_password">Change Password</string>
+    <string name="nav_sign_out">Sign Out</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="quatity_string_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5(Max)</item>
+    </string-array>
+</resources>

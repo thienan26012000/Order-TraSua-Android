@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="3dp">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:weightSum="8">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="2">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_photo_cart"-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:src="@drawable/trasua"></ImageView>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_remove_cart"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginLeft="28dp"-->
+<!--                android:src="@drawable/ic_delete"-->
+<!--                android:layout_below="@+id/img_photo_cart">-->
+<!--            </ImageView>-->
+
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="5">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_name_product_cart"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:text="Iphone 12"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textColor="@color/black">-->
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_price_product_cart"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_below="@+id/tv_name_product_cart"-->
+<!--                android:text="20.990.00 VND"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textColor="@color/red">-->
+<!--            </TextView>-->
+
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_minus_cart"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:src="@drawable/ic_baseline_remove_24">-->
+<!--            </ImageView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_count_cart"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginRight="5dp"-->
+<!--                android:layout_below="@+id/img_minus_cart"-->
+<!--                android:text="1"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:gravity="center"-->
+<!--                android:background="@color/white">-->
+<!--            </TextView>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_plus_cart"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:src="@drawable/ic_baseline_add_24"-->
+<!--                android:layout_below="@+id/tv_count_cart">-->
+<!--            </ImageView>-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </LinearLayout>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_photo_cart"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/trasua"></ImageView>
+
+            <ImageView
+                android:id="@+id/img_remove_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_delete"
+                android:layout_below="@+id/img_photo_cart">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_name_product_cart"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/img_photo_cart"
+                android:text="Tra sua 1"
+                android:textColor="@color/black"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_price_product_cart"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/tv_name_product_cart"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/img_photo_cart"
+                android:text="20.000 đ"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/red"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/img_minus_cart"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/tv_price_product_cart"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/img_photo_cart"
+                android:src="@drawable/ic_baseline_remove_24"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_count_cart"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/tv_price_product_cart"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@id/img_minus_cart"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/img_plus_cart"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/tv_price_product_cart"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tv_count_cart"
+                android:src="@drawable/ic_baseline_add_24"></ImageView>
+
+        </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<layout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--    <data>-->
+<!--        <variable-->
+<!--            name="cartItem"-->
+<!--            type="android.nguyenphuocthienan.projecmain1.Model.CartItem" />-->
+
+<!--    </data>-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/productImageView"-->
+<!--            android:layout_width="96dp"-->
+<!--            android:layout_height="96dp"-->
+<!--            android:padding="8dp"-->
+<!--            android:src="@drawable/avatar_default"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:productImage="@{cartItem.drink.imageUrl}"-->
+<!--            />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/productNameTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/textView"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/productImageView"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:text="@{cartItem.drink.name}" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Qty"-->
+<!--            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/productNameTextView"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/productNameTextView" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/quantitySpinner"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:entries="@string/quantity_string_array"-->
+<!--            android:minHeight="48dp"-->
+<!--            android:setVal="@{cartItem.quantity}"-->
+<!--            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/textView"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/textView"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/textView"-->
+<!--            tools:ignore="SpeakableTextPresentCheck" />-->
+
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/deleteProductButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:layout_marginLeft="32dp"-->
+<!--            android:background="?android:attr/selectableItemBackground"-->
+<!--            android:minWidth="48dp"-->
+<!--            android:minHeight="48dp"-->
+<!--            android:padding="8dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/quantitySpinner"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/quantitySpinner"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/quantitySpinner"-->
+<!--            app:srcCompat="@drawable/ic_delete"-->
+<!--            tools:ignore="SpeakableTextPresentCheck" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/productTotalPriceTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"-->
+<!--            android:text="@{String.valueOf(cartItem.drink.price * cartItem.quantity)}" />-->
+
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--</layout>-->
